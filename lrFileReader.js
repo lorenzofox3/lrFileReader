@@ -26,7 +26,7 @@
                     }
 
                     this.on('abort', function abort(event) {
-                        deferred.reject({message: 'aborted'});
+                        deferred.reject(event);
                     });
 
                     this.promise = deferred.promise;

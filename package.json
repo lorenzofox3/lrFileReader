@@ -1,0 +1,30 @@
+{
+    "name": "lrFileReader",
+    "version": "0.1.0",
+    "description": "angular wrapper around the FileReader API",
+    "main": "lrFileReader.js",
+    "directories": {
+        "example": "example"
+    },
+    "scripts": {
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lorenzofox3/lrFileReader.git"
+    },
+    "keywords": [
+        "angular",
+        "FileReader"
+    ],
+    "author": "Laurent Renard",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/lorenzofox3/lrFileReader/issues"
+    },
+    "homepage": "https://github.com/lorenzofox3/lrFileReader",
+    "devDependencies": {
+        "karma": "^0.12.21",
+        "karma-chrome-launcher": "^0.1.4",
+        "karma-jasmine": "^0.1.5"
+    }
+}
