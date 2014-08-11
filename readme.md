@@ -37,7 +37,7 @@ function controller($scope,lrFileReader){
 }
 ```
 
-see the [example](http://lorenzofox3.github.io/lrFileReade/example/index.html)
+see the [example](http://lorenzofox3.github.io/lrFileReader/example/index.html)
 
 
 
