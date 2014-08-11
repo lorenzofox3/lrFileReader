@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head lang="en">
+	<meta charset="UTF-8">
+	<title></title>
+	<script src="../bower_components/angular/angular.js"></script>
+	<script src="../lrFileReader.js"></script>
+	<script src="app.js"></script>
+</head>
+<body ng-controller="mainCtrl">
+<input input-file="" type="file" ng-model="file"/>
+
+<p>Select an image in the input file to see the preview</p>
+
+<p>progress: {{progress}} %</p>
+<img ng-src="{{image}}" alt="preview"/>
+</body>
+</html>
