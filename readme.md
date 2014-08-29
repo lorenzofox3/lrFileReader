@@ -4,7 +4,7 @@ An Angular wrapper around the [FileReader API](http://devdocs.io/dom/filereader)
 
 ## getting started
 
-1. bower: `bower install lrFileReader`
+1. bower: `bower install lr-file-reader`
 2. add the script lrFileReader.js to your application
 3. register the module to your app ```angular.module('myApp,['lrFileReader'])```
 
